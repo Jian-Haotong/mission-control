@@ -1,1 +1,115 @@
-{"test":"push","time":"2026-04-20T13:25:29+08:00"}
+{
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "Set up Mission Control",
+      "description": "Install and configure Mission Control dashboard",
+      "status": "done",
+      "priority": "high",
+      "assignee": "ai-assistant",
+      "created": "2026-04-19T12:00:00Z",
+      "updated": "2026-04-19T13:00:00Z",
+      "epic": null,
+      "subtasks": [],
+      "comments": []
+    },
+    {
+      "id": "task-002",
+      "title": "Test Dashboard UI",
+      "description": "Verify Mission Control dashboard renders correctly",
+      "status": "in-progress",
+      "priority": "medium",
+      "assignee": "ai-assistant",
+      "created": "2026-04-19T13:00:00Z",
+      "updated": "2026-04-19T13:10:00Z",
+      "epic": "task-001",
+      "subtasks": [
+        {
+          "id": "sub-1",
+          "title": "Check HTML loads",
+          "status": "done"
+        },
+        {
+          "id": "sub-2",
+          "title": "Check CSS loads",
+          "status": "done"
+        },
+        {
+          "id": "sub-3",
+          "title": "Verify task cards render",
+          "status": "pending"
+        }
+      ],
+      "comments": [
+        {
+          "author": "human",
+          "text": "Please test the dashboard",
+          "timestamp": "2026-04-19T13:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "task-1776576259961-ueh9bhu5l",
+      "title": "Integrate Mission Control with OpenClaw",
+      "description": "Connect the dashboard to the agent for auto-execution",
+      "status": "in-progress",
+      "priority": "high",
+      "assignee": "ai-assistant",
+      "created": "2026-04-19T05:24:19.961Z",
+      "updated": "2026-04-19T05:24:19.962Z",
+      "epic": null,
+      "subtasks": [],
+      "comments": []
+    },
+    {
+      "id": "task-1776576849785-vjhr9o8o4",
+      "title": "Deploy Mission Control to Production",
+      "description": "Set up GitHub repository, webhook, and pages deployment",
+      "status": "in-progress",
+      "priority": "high",
+      "assignee": "ai-assistant",
+      "created": "2026-04-19T05:34:09.785Z",
+      "updated": "2026-04-19T05:34:09.786Z",
+      "epic": null,
+      "subtasks": [
+        {
+          "id": "sub-deploy-1",
+          "title": "Create GitHub repo",
+          "status": "pending"
+        },
+        {
+          "id": "sub-deploy-2",
+          "title": "Configure webhook",
+          "status": "pending"
+        },
+        {
+          "id": "sub-deploy-3",
+          "title": "Enable GitHub Pages",
+          "status": "pending"
+        }
+      ],
+      "comments": [
+        {
+          "author": "ai-assistant",
+          "text": "Starting deployment process",
+          "timestamp": "2026-04-19T05:34:09.786Z"
+        }
+      ]
+    },
+    {
+      "id": "task-1776662820290-he3ttv0xq",
+      "title": "GitHub 同步最终测试 - 2026-04-20",
+      "description": "验证 base64 和 curl 修复后能否成功推送",
+      "status": "backlog",
+      "priority": "high",
+      "assignee": "unassigned",
+      "created": "2026-04-20T05:27:00.290Z",
+      "updated": "2026-04-20T05:27:00.290Z",
+      "epic": null,
+      "subtasks": [],
+      "comments": []
+    }
+  ],
+  "version": "1.0",
+  "lastModified": "2026-04-20T05:27:00.290Z"
+}
